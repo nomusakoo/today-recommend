@@ -198,20 +198,60 @@ main {
 }
 
 .gu-path {
-  stroke: #ffffff;
-  stroke-width: 1;
+  stroke: #fbf9f7;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
   cursor: pointer;
-  transition: opacity 0.15s ease, stroke-width 0.15s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: opacity 0.2s ease, stroke-width 0.2s ease, transform 0.2s ease,
+    filter 0.2s ease;
 }
 
 .gu-path:hover {
-  opacity: 0.75;
-  stroke: #2b2b2b;
+  opacity: 0.85;
+}
+
+.gu-path.dimmed {
+  opacity: 0.35;
 }
 
 .gu-path.selected {
   stroke: #2b2b2b;
-  stroke-width: 2.5;
+  stroke-width: 2;
+  opacity: 1;
+  transform: scale(1.015);
+  filter: drop-shadow(0 4px 10px rgba(43, 43, 43, 0.35));
+}
+
+.gu-labels {
+  pointer-events: none;
+}
+
+.gu-label {
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  fill: #4a3d34;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  paint-order: stroke;
+  stroke: #fbf9f7;
+  stroke-width: 2.6px;
+  stroke-linejoin: round;
+  transition: opacity 0.2s ease, font-size 0.2s ease, fill 0.2s ease;
+}
+
+.gu-label.dimmed {
+  opacity: 0.4;
+}
+
+.gu-label.selected {
+  font-size: 14px;
+  font-weight: 800;
+  fill: #2b2b2b;
+  stroke: #ffffff;
+  stroke-width: 3.2px;
 }
 
 .map-legend {

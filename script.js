@@ -177,10 +177,14 @@ async function loadSeoulEvents() {
 }
 
 function colorForCount(count) {
-  if (!count) return "#eef0f2";
-  if (count <= 2) return "#ffd9c2";
-  if (count <= 5) return "#ffab7a";
-  return "#ff6a2e";
+  if (!count) return "#f2eee9";
+  if (count <= 2) return "#f2c9a4";
+  if (count <= 5) return "#e2895a";
+  return "#c0532a";
+}
+
+function shortGuName(gu) {
+  return gu.endsWith("구") ? gu.slice(0, -1) : gu;
 }
 
 function renderMap() {
@@ -191,6 +195,10 @@ function renderMap() {
 
   seoulMap.innerHTML = "";
   seoulMap.setAttribute("viewBox", `0 0 ${SEOUL_DISTRICTS.width} ${SEOUL_DISTRICTS.height}`);
+
+  const pathGroup = document.createElementNS(SVG_NS, "g");
+  const labelGroup = document.createElementNS(SVG_NS, "g");
+  labelGroup.setAttribute("class", "gu-labels");
 
   Object.entries(SEOUL_DISTRICTS.paths).forEach(([gu, d]) => {
     const path = document.createElementNS(SVG_NS, "path");
@@ -204,16 +212,41 @@ function renderMap() {
     path.appendChild(title);
 
     path.addEventListener("click", () => selectGu(gu));
-    seoulMap.appendChild(path);
+    pathGroup.appendChild(path);
+
+    const [cx, cy] = SEOUL_DISTRICTS.centroids[gu];
+    const label = document.createElementNS(SVG_NS, "text");
+    label.setAttribute("class", "gu-label");
+    label.setAttribute("data-gu", gu);
+    label.setAttribute("x", cx);
+    label.setAttribute("y", cy);
+    label.textContent = shortGuName(gu);
+    label.style.pointerEvents = "none";
+    labelGroup.appendChild(label);
   });
+
+  seoulMap.appendChild(pathGroup);
+  seoulMap.appendChild(labelGroup);
 
   syncMapSelection();
 }
 
 function syncMapSelection() {
   const selected = guSelect.value;
+  const hasSelection = selected !== "all";
+
   seoulMap.querySelectorAll(".gu-path").forEach((path) => {
-    path.classList.toggle("selected", selected !== "all" && path.dataset.gu === selected);
+    const isSelected = hasSelection && path.dataset.gu === selected;
+    path.classList.toggle("selected", isSelected);
+    path.classList.toggle("dimmed", hasSelection && !isSelected);
+    if (isSelected) path.parentNode.appendChild(path);
+  });
+
+  seoulMap.querySelectorAll(".gu-label").forEach((label) => {
+    const isSelected = hasSelection && label.dataset.gu === selected;
+    label.classList.toggle("selected", isSelected);
+    label.classList.toggle("dimmed", hasSelection && !isSelected);
+    if (isSelected) label.parentNode.appendChild(label);
   });
 }
 

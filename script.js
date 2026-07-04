@@ -95,6 +95,7 @@ function draw() {
   card.classList.remove("pop");
   void card.offsetWidth;
   card.classList.add("pop");
+  reportHeight();
 }
 
 tabs.addEventListener("click", (e) => {
@@ -129,6 +130,7 @@ mainTabs.addEventListener("click", (e) => {
   if (view === "seoul") {
     loadSeoulEvents();
   }
+  reportHeight();
 });
 
 // ---- 서울시 문화행사 정보 (data.seoul.go.kr) ----
@@ -170,6 +172,7 @@ async function loadSeoulEvents() {
   } catch (err) {
     eventStatus.textContent = "행사 정보를 불러오지 못했어요. 잠시 후 다시 시도해주세요.";
     eventStatus.style.display = "block";
+    reportHeight();
   }
 }
 
@@ -238,6 +241,7 @@ function renderEvents() {
     status.className = "event-status";
     status.textContent = "진행 중인 행사가 없어요.";
     eventList.appendChild(status);
+    reportHeight();
     return;
   }
 
@@ -263,6 +267,8 @@ function renderEvents() {
     `;
     eventList.appendChild(card);
   });
+
+  reportHeight();
 }
 
 guSelect.addEventListener("change", () => {
@@ -277,14 +283,14 @@ loadSeoulEvents();
 function reportHeight() {
   if (window.parent === window) return;
   window.parent.postMessage(
-    { type: "today-recommend-resize", height: document.documentElement.scrollHeight },
+    { type: "today-recommend-resize", height: document.body.scrollHeight },
     "*"
   );
 }
 
 if (window.ResizeObserver) {
   new ResizeObserver(reportHeight).observe(document.body);
-} else {
-  window.addEventListener("load", reportHeight);
-  window.addEventListener("resize", reportHeight);
 }
+window.addEventListener("load", reportHeight);
+window.addEventListener("resize", reportHeight);
+[100, 500, 1500].forEach((delay) => setTimeout(reportHeight, delay));

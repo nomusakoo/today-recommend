@@ -31,7 +31,7 @@ async function fetchPage(start, end) {
 }
 
 async function main() {
-  const today = toDateOnly(new Date().toISOString());
+  const today = new Date().toISOString().slice(0, 10);
   const rows = [];
 
   for (let page = 0; page < MAX_PAGES; page++) {

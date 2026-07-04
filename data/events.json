@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T04:51:28.223Z",
+  "updatedAt": "2026-07-04T21:54:45.694Z",
   "count": 360,
   "items": [
     {
@@ -146,19 +146,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d208526580cd45d7ac90b4bdc6021ca0&thumb=Y"
     },
     {
-      "title": "[서울디자인재단] SUP 시민참여 프로그램 [자원순환 이야기]",
-      "category": "교육/체험",
-      "gu": "성동구",
-      "place": "서울새활용플라자 1층 새활용하우스",
-      "startDate": "2026-01-02",
-      "endDate": "2026-12-31",
-      "isFree": true,
-      "fee": "무료",
-      "target": "만 7세 이상 전 연령(만 7세 미만은 아동 1명 당 보호자 1명 이상 동반 시 참여 가능)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156557&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=80e93c16fdef4ae49cf04b149dc2701f&thumb=Y"
-    },
-    {
       "title": "[서울디자인재단] [해치와 나눔히어로] 장난감 기부, 나눔 체험",
       "category": "교육/체험",
       "gu": "성동구",
@@ -172,17 +159,17 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0f77dbb41066453a9cf39fabf0b69b95&thumb=Y"
     },
     {
-      "title": "[서울디자인재단] DDP 건축투어",
-      "category": "전시/미술",
-      "gu": "중구",
-      "place": "DDP 뮤지엄 1층 투어데스크",
+      "title": "[서울디자인재단] SUP 시민참여 프로그램 [자원순환 이야기]",
+      "category": "교육/체험",
+      "gu": "성동구",
+      "place": "서울새활용플라자 1층 새활용하우스",
       "startDate": "2026-01-02",
       "endDate": "2026-12-31",
       "isFree": true,
       "fee": "무료",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156552&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=47da849abe944ec9b7dedaf1ab283714&thumb=Y"
+      "target": "만 7세 이상 전 연령(만 7세 미만은 아동 1명 당 보호자 1명 이상 동반 시 참여 가능)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156557&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=80e93c16fdef4ae49cf04b149dc2701f&thumb=Y"
     },
     {
       "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
@@ -196,6 +183,19 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156558&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y"
+    },
+    {
+      "title": "[서울디자인재단] DDP 건축투어",
+      "category": "전시/미술",
+      "gu": "중구",
+      "place": "DDP 뮤지엄 1층 투어데스크",
+      "startDate": "2026-01-02",
+      "endDate": "2026-12-31",
+      "isFree": true,
+      "fee": "무료",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156552&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=47da849abe944ec9b7dedaf1ab283714&thumb=Y"
     },
     {
       "title": "[DDP] Dream in Light",
@@ -848,19 +848,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=862c9a38b3b146358637293a4f2c8d30&thumb=Y"
     },
     {
-      "title": "[소마미술관] 그림책이 살아있다!",
-      "category": "전시/미술",
-      "gu": "송파구",
-      "place": "소마미술관 2관 기획전시실",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "isFree": false,
-      "fee": "성인 18,000원, 청소년·어린이 16,000원/ *단체(20명이상)할인: 2,000원 할인",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157116&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y"
-    },
-    {
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "category": "전시/미술",
       "gu": "송파구",
@@ -872,6 +859,19 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157117&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4ac3bd4533342b993b5ccfd5d42086c&thumb=Y"
+    },
+    {
+      "title": "[소마미술관] 그림책이 살아있다!",
+      "category": "전시/미술",
+      "gu": "송파구",
+      "place": "소마미술관 2관 기획전시실",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "isFree": false,
+      "fee": "성인 18,000원, 청소년·어린이 16,000원/ *단체(20명이상)할인: 2,000원 할인",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157116&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y"
     },
     {
       "title": "2026 한강이야기여행 [한강역사탐방]",
@@ -1680,19 +1680,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a56fde22781a4b49a462e1b4ee81f745&thumb=Y"
     },
     {
-      "title": "[2026 신진미술인 지원 프로그램] 신재은 개인전 《GAIA-피식의 서》",
-      "category": "전시/미술",
-      "gu": "중구",
-      "place": "Hall 1 (서울시 영등포구 양평로22마길 8)",
-      "startDate": "2026-06-09",
-      "endDate": "2026-07-17",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158207&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=14c9c9e883e04c8e9f8fa29eae539a25&thumb=Y"
-    },
-    {
       "title": "[서울시립미술관 서소문본관] 2026 SeMA 외국어 도슨트 역량강화 교육",
       "category": "교육/체험",
       "gu": "중구",
@@ -1704,6 +1691,19 @@
       "target": "성인, 서울시립미술관 도슨트",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158206&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=644e99155abe4b80a7a29a4f80c15b40&thumb=Y"
+    },
+    {
+      "title": "[2026 신진미술인 지원 프로그램] 신재은 개인전 《GAIA-피식의 서》",
+      "category": "전시/미술",
+      "gu": "중구",
+      "place": "Hall 1 (서울시 영등포구 양평로22마길 8)",
+      "startDate": "2026-06-09",
+      "endDate": "2026-07-17",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158207&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=14c9c9e883e04c8e9f8fa29eae539a25&thumb=Y"
     },
     {
       "title": "[서울문화재단] 2026 서울문화예술교육센터 양천 [모두의 아뜰리에] 상설 체험 프로그램: 《오늘의 색, 오늘의 기억》",
@@ -1888,19 +1888,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=df609b55f8804a1eb5b6fd30c84949b9&thumb=Y"
     },
     {
-      "title": "[도봉문화정보도서관] 시니어를 위한 디지털 배움교실",
-      "category": "교육/체험",
-      "gu": "도봉구",
-      "place": "도봉문화정보도서관 1층 컴퓨터교육실",
-      "startDate": "2026-06-17",
-      "endDate": "2026-07-22",
-      "isFree": true,
-      "fee": "",
-      "target": "어르신",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158118&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=12f727f470964f93b0d8e1cbf901e7d5&thumb=Y"
-    },
-    {
       "title": "[서울아트책보고] 20세기 현대건축: 서양 근대부터 한국 현대까지 - 임석재 이화여대 건축학과 교수",
       "category": "교육/체험",
       "gu": "구로구",
@@ -1912,6 +1899,19 @@
       "target": "성인",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158126&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=96eeb87f98764d839c1fc5c199b7dc3c&thumb=Y"
+    },
+    {
+      "title": "[도봉문화정보도서관] 시니어를 위한 디지털 배움교실",
+      "category": "교육/체험",
+      "gu": "도봉구",
+      "place": "도봉문화정보도서관 1층 컴퓨터교육실",
+      "startDate": "2026-06-17",
+      "endDate": "2026-07-22",
+      "isFree": true,
+      "fee": "",
+      "target": "어르신",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158118&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=12f727f470964f93b0d8e1cbf901e7d5&thumb=Y"
     },
     {
       "title": "[서울공예박물관] 공예동행@쇼윈도 #3. FUNCTIONAL MUTATION : 기능적 돌연변이",
@@ -2044,19 +2044,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1b51903d0418468f8502a51066d96c5d&thumb=Y"
     },
     {
-      "title": "[서울시립 사진미술관] 사진공유 프로젝트 《집-들이!》",
-      "category": "전시/미술",
-      "gu": "도봉구",
-      "place": "서울시립 사진미술관 1층 로비",
-      "startDate": "2026-06-19",
-      "endDate": "2026-07-05",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158353&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b406e315e6024d288d863129812896f9&thumb=Y"
-    },
-    {
       "title": "정보경 개인전 [사유를 앞질러]",
       "category": "전시/미술",
       "gu": "용산구",
@@ -2068,6 +2055,19 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158115&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a06bd38a307c4a6d9ea32740ae7ac894&thumb=Y"
+    },
+    {
+      "title": "[서울시립 사진미술관] 사진공유 프로젝트 《집-들이!》",
+      "category": "전시/미술",
+      "gu": "도봉구",
+      "place": "서울시립 사진미술관 1층 로비",
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-05",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158353&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b406e315e6024d288d863129812896f9&thumb=Y"
     },
     {
       "title": "[답십리영화미디어아트센터] 답십리 필름을 타고~!",
@@ -2473,6 +2473,19 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=120ebf599d6c4d028cd2322ea249968f&thumb=Y"
     },
     {
+      "title": "[마포구립서강도서관] 7월/행사 [7월 문화프로그램 안내]",
+      "category": "교육/체험",
+      "gu": "마포구",
+      "place": "마포구립서강도서관",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "isFree": true,
+      "fee": "",
+      "target": "프로그램별 상이",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158253&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1c3033182acb49bc83fad1ec2e66fcd5&thumb=Y"
+    },
+    {
       "title": "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 7월 프로그램",
       "category": "교육/체험",
       "gu": "송파구",
@@ -2484,19 +2497,6 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158325&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=79a99ac216bd48709edd6e4b7e192201&thumb=Y"
-    },
-    {
-      "title": "[DDP] 버스킹 7월 공연 일정 안내",
-      "category": "콘서트",
-      "gu": "중구",
-      "place": "DDP 어울림광장, 팔거리",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158470&menuNo=200008",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ccdd666f40a430ba8cf1ee656af26a8&thumb=Y"
     },
     {
       "title": "[마포구립서강도서관] 7월/팟캐스트 서강도서관 피셜 69회 [레볼루셔너리 로드]",
@@ -2512,17 +2512,17 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=31070ac710134a1d94be64e4b4ea39c5&thumb=Y"
     },
     {
-      "title": "[마포구립서강도서관] 7월/행사 [7월 문화프로그램 안내]",
-      "category": "교육/체험",
-      "gu": "마포구",
-      "place": "마포구립서강도서관",
+      "title": "[DDP] 버스킹 7월 공연 일정 안내",
+      "category": "콘서트",
+      "gu": "중구",
+      "place": "DDP 어울림광장, 팔거리",
       "startDate": "2026-07-01",
       "endDate": "2026-07-31",
       "isFree": true,
       "fee": "",
-      "target": "프로그램별 상이",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158253&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1c3033182acb49bc83fad1ec2e66fcd5&thumb=Y"
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158470&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ccdd666f40a430ba8cf1ee656af26a8&thumb=Y"
     },
     {
       "title": "[마포구립서강도서관] 7월/영유아 [말놀이 잘잘잘]",

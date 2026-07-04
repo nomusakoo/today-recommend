@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>오늘 뭐 하지?</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>오늘 뭐 하지? 🤔</h1>
+      <p class="subtitle">고민은 그만, 버튼 한 번에 오늘을 정해드려요</p>
+    </header>
+
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-category="all">전체</button>
+      <button class="tab" data-category="activity">할 일</button>
+      <button class="tab" data-category="food">음식</button>
+      <button class="tab" data-category="movie">영화</button>
+    </nav>
+
+    <main>
+      <div class="card" id="card">
+        <span class="card-emoji" id="cardEmoji">🎲</span>
+        <p class="card-text" id="cardText">버튼을 눌러 오늘의 추천을 받아보세요</p>
+        <span class="card-tag" id="cardTag"></span>
+      </div>
+
+      <button class="cta" id="drawBtn">추천받기</button>
+    </main>
+
+    <footer>
+      <p>© 2026 오늘 뭐 하지</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

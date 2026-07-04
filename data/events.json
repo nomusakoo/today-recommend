@@ -1,0 +1,71 @@
+{
+  "updatedAt": "2026-07-04T04:20:00.000Z",
+  "count": 5,
+  "items": [
+    {
+      "title": "[마포문화재단] 2026 M 아티스트 선율 피아노 리사이틀 Ⅱ",
+      "category": "클래식",
+      "gu": "마포구",
+      "place": "마포아트센터 아트홀맥",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-16",
+      "isFree": true,
+      "fee": "R석 30,000원, S석 20,000원",
+      "target": "8세이상 관람가능(미취학아동입장불가)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157857&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=85fc1df81a114f9b90e3793fc465f23c&thumb=Y"
+    },
+    {
+      "title": "[영등포문화재단] 마티네콘서트 With 금난새 #3.베버",
+      "category": "클래식",
+      "gu": "영등포구",
+      "place": "영등포아트홀",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-15",
+      "isFree": false,
+      "fee": "전석 15,000원",
+      "target": "초등학생(2019년생 포함) 이상",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157909&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0410ae87ca824f11afa6370b0c19d9a8&thumb=Y"
+    },
+    {
+      "title": "[마포문화재단] 2026 [인디스커버리 : FESTA] TRACK 01",
+      "category": "콘서트",
+      "gu": "마포구",
+      "place": "마포아트센터 아트홀맥",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "isFree": false,
+      "fee": "R석 66,000원, S석 55,000원, 시야방해석 33,000원",
+      "target": "8세 이상",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158483&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3d17bd7f9f0f4814af0c16207bb3a71b&thumb=Y"
+    },
+    {
+      "title": "[마포문화재단] 2026 [인디스커버리 : FESTA] TRACK 02",
+      "category": "콘서트",
+      "gu": "마포구",
+      "place": "마포아트센터 아트홀맥",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "isFree": false,
+      "fee": "R석 66,000원, S석 55,000원, 시야방해석 33,000원",
+      "target": "(토) 17:00",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158484&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=49e49e5ac957439caa32f2e01e720560&thumb=Y"
+    },
+    {
+      "title": "[꿈의숲아트센터] 꿈의숲 마티네 콘서트 [벨에포크 아트&뮤직] 시리즈3",
+      "category": "콘서트",
+      "gu": "강북구",
+      "place": "북서울꿈의숲 상상톡톡미술관",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "isFree": false,
+      "fee": "전석 15,000원",
+      "target": "8세 이상 관람 가능",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158447&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=75a26c72552b4b38acca7be54e15cf8b&thumb=Y"
+    }
+  ]
+}

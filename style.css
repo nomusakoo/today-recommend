@@ -37,6 +37,46 @@ header h1 {
   font-size: 0.9rem;
 }
 
+.maintabs {
+  display: flex;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 6px;
+  border-radius: 14px;
+}
+
+.maintab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #666;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.maintab:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.maintab.active {
+  background: #2b2b2b;
+  color: white;
+}
+
+.view {
+  display: none;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.view.active {
+  display: flex;
+}
+
 .tabs {
   display: flex;
   gap: 8px;
@@ -145,6 +185,103 @@ main {
 
 .cta:active {
   transform: scale(0.97);
+}
+
+.seoul-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seoul-controls select {
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  color: #444;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 460px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.event-status {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  padding: 40px 0;
+}
+
+.event-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.event-card-top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.event-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #ff8a5c;
+  background: #fff1e6;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.event-badge.free {
+  color: #2e9e6e;
+  background: #e6f7ef;
+}
+
+.event-gu {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.event-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.event-meta {
+  font-size: 0.82rem;
+  color: #666;
+  margin: 0;
+}
+
+.event-link {
+  align-self: flex-start;
+  margin-top: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  text-decoration: none;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.updated-at {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 footer {

@@ -108,3 +108,112 @@ tabs.addEventListener("click", (e) => {
 });
 
 drawBtn.addEventListener("click", draw);
+
+// ---- 메인 탭 전환 (랜덤 추천 / 서울 행사) ----
+
+const mainTabs = document.getElementById("mainTabs");
+const randomView = document.getElementById("randomView");
+const seoulView = document.getElementById("seoulView");
+
+mainTabs.addEventListener("click", (e) => {
+  const btn = e.target.closest(".maintab");
+  if (!btn) return;
+
+  mainTabs.querySelectorAll(".maintab").forEach((t) => t.classList.remove("active"));
+  btn.classList.add("active");
+
+  const view = btn.dataset.view;
+  randomView.classList.toggle("active", view === "random");
+  seoulView.classList.toggle("active", view === "seoul");
+
+  if (view === "seoul") {
+    loadSeoulEvents();
+  }
+});
+
+// ---- 서울시 문화행사 정보 (data.seoul.go.kr) ----
+
+const guSelect = document.getElementById("guSelect");
+const eventList = document.getElementById("eventList");
+const eventStatus = document.getElementById("eventStatus");
+const updatedAtEl = document.getElementById("updatedAt");
+
+let seoulEvents = null;
+
+async function loadSeoulEvents() {
+  if (seoulEvents) return;
+
+  try {
+    const res = await fetch("data/events.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    seoulEvents = data.items || [];
+
+    const guList = [...new Set(seoulEvents.map((e) => e.gu).filter(Boolean))].sort();
+    guList.forEach((gu) => {
+      const opt = document.createElement("option");
+      opt.value = gu;
+      opt.textContent = gu;
+      guSelect.appendChild(opt);
+    });
+
+    if (data.updatedAt) {
+      const d = new Date(data.updatedAt);
+      updatedAtEl.textContent = `${d.toLocaleString("ko-KR")} 기준 · 매일 자동 업데이트`;
+    }
+
+    renderEvents();
+  } catch (err) {
+    eventStatus.textContent = "행사 정보를 불러오지 못했어요. 잠시 후 다시 시도해주세요.";
+    eventStatus.style.display = "block";
+  }
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str ?? "";
+  return div.innerHTML;
+}
+
+function renderEvents() {
+  const selectedGu = guSelect.value;
+  const filtered =
+    selectedGu === "all" ? seoulEvents : seoulEvents.filter((e) => e.gu === selectedGu);
+
+  eventList.innerHTML = "";
+
+  if (filtered.length === 0) {
+    const status = document.createElement("p");
+    status.className = "event-status";
+    status.textContent = "진행 중인 행사가 없어요.";
+    eventList.appendChild(status);
+    return;
+  }
+
+  filtered.forEach((event) => {
+    const card = document.createElement("div");
+    card.className = "event-card";
+
+    const period =
+      event.startDate === event.endDate
+        ? event.startDate
+        : `${event.startDate} ~ ${event.endDate}`;
+
+    const safeLink = /^https?:\/\//i.test(event.link || "") ? event.link : "";
+
+    card.innerHTML = `
+      <div class="event-card-top">
+        <span class="event-badge ${event.isFree ? "free" : ""}">${event.isFree ? "무료" : "유료"}</span>
+        <span class="event-gu">${escapeHtml(event.gu)} · ${escapeHtml(event.category)}</span>
+      </div>
+      <p class="event-title">${escapeHtml(event.title)}</p>
+      <p class="event-meta">${escapeHtml(event.place)} · ${escapeHtml(period)}</p>
+      ${safeLink ? `<a class="event-link" href="${escapeHtml(safeLink)}" target="_blank" rel="noopener noreferrer">자세히 보기</a>` : ""}
+    `;
+    eventList.appendChild(card);
+  });
+}
+
+guSelect.addEventListener("change", renderEvents);
+
+loadSeoulEvents();

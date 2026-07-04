@@ -137,6 +137,9 @@ const guSelect = document.getElementById("guSelect");
 const eventList = document.getElementById("eventList");
 const eventStatus = document.getElementById("eventStatus");
 const updatedAtEl = document.getElementById("updatedAt");
+const seoulMap = document.getElementById("seoulMap");
+
+const SVG_NS = "http://www.w3.org/2000/svg";
 
 let seoulEvents = null;
 
@@ -149,7 +152,7 @@ async function loadSeoulEvents() {
     const data = await res.json();
     seoulEvents = data.items || [];
 
-    const guList = [...new Set(seoulEvents.map((e) => e.gu).filter(Boolean))].sort();
+    const guList = Object.keys(SEOUL_DISTRICTS.paths).sort();
     guList.forEach((gu) => {
       const opt = document.createElement("option");
       opt.value = gu;
@@ -162,11 +165,59 @@ async function loadSeoulEvents() {
       updatedAtEl.textContent = `${d.toLocaleString("ko-KR")} 기준 · 매일 자동 업데이트`;
     }
 
+    renderMap();
     renderEvents();
   } catch (err) {
     eventStatus.textContent = "행사 정보를 불러오지 못했어요. 잠시 후 다시 시도해주세요.";
     eventStatus.style.display = "block";
   }
+}
+
+function colorForCount(count) {
+  if (!count) return "#eef0f2";
+  if (count <= 2) return "#ffd9c2";
+  if (count <= 5) return "#ffab7a";
+  return "#ff6a2e";
+}
+
+function renderMap() {
+  const counts = {};
+  seoulEvents.forEach((e) => {
+    if (e.gu) counts[e.gu] = (counts[e.gu] || 0) + 1;
+  });
+
+  seoulMap.innerHTML = "";
+  seoulMap.setAttribute("viewBox", `0 0 ${SEOUL_DISTRICTS.width} ${SEOUL_DISTRICTS.height}`);
+
+  Object.entries(SEOUL_DISTRICTS.paths).forEach(([gu, d]) => {
+    const path = document.createElementNS(SVG_NS, "path");
+    path.setAttribute("d", d);
+    path.setAttribute("class", "gu-path");
+    path.setAttribute("data-gu", gu);
+    path.setAttribute("fill", colorForCount(counts[gu]));
+
+    const title = document.createElementNS(SVG_NS, "title");
+    title.textContent = `${gu} (${counts[gu] || 0}건)`;
+    path.appendChild(title);
+
+    path.addEventListener("click", () => selectGu(gu));
+    seoulMap.appendChild(path);
+  });
+
+  syncMapSelection();
+}
+
+function syncMapSelection() {
+  const selected = guSelect.value;
+  seoulMap.querySelectorAll(".gu-path").forEach((path) => {
+    path.classList.toggle("selected", selected !== "all" && path.dataset.gu === selected);
+  });
+}
+
+function selectGu(gu) {
+  guSelect.value = guSelect.value === gu ? "all" : gu;
+  syncMapSelection();
+  renderEvents();
 }
 
 function escapeHtml(str) {
@@ -214,6 +265,9 @@ function renderEvents() {
   });
 }
 
-guSelect.addEventListener("change", renderEvents);
+guSelect.addEventListener("change", () => {
+  syncMapSelection();
+  renderEvents();
+});
 
 loadSeoulEvents();

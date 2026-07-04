@@ -16,7 +16,7 @@ body {
 
 .app {
   width: 100%;
-  max-width: 420px;
+  max-width: 480px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -185,6 +185,53 @@ main {
 
 .cta:active {
   transform: scale(0.97);
+}
+
+.map-wrap {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  padding: 12px 12px 6px;
+}
+
+#seoulMap {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gu-path {
+  stroke: #ffffff;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: opacity 0.15s ease, stroke-width 0.15s ease;
+}
+
+.gu-path:hover {
+  opacity: 0.75;
+  stroke: #2b2b2b;
+}
+
+.gu-path.selected {
+  stroke: #2b2b2b;
+  stroke-width: 2.5;
+}
+
+.map-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 0 4px;
+  font-size: 0.72rem;
+  color: #999;
+}
+
+.legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .seoul-controls {

@@ -19,6 +19,18 @@
     </nav>
 
     <section class="view active" id="seoulView">
+      <div class="map-wrap">
+        <svg id="seoulMap" viewBox="0 0 600 493.6" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="map-legend">
+          <span>없음</span>
+          <span class="legend-swatch" style="background:#eef0f2"></span>
+          <span class="legend-swatch" style="background:#ffd9c2"></span>
+          <span class="legend-swatch" style="background:#ffab7a"></span>
+          <span class="legend-swatch" style="background:#ff6a2e"></span>
+          <span>많음</span>
+        </div>
+      </div>
+
       <div class="seoul-controls">
         <select id="guSelect">
           <option value="all">전체 자치구</option>
@@ -56,6 +68,7 @@
     </footer>
   </div>
 
+  <script src="seoul-districts.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

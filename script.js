@@ -271,3 +271,20 @@ guSelect.addEventListener("change", () => {
 });
 
 loadSeoulEvents();
+
+// ---- 블로거 등 iframe에 삽입됐을 때, 부모 창에 실제 콘텐츠 높이 전달 ----
+
+function reportHeight() {
+  if (window.parent === window) return;
+  window.parent.postMessage(
+    { type: "today-recommend-resize", height: document.documentElement.scrollHeight },
+    "*"
+  );
+}
+
+if (window.ResizeObserver) {
+  new ResizeObserver(reportHeight).observe(document.body);
+} else {
+  window.addEventListener("load", reportHeight);
+  window.addEventListener("resize", reportHeight);
+}

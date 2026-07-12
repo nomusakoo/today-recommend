@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T21:44:02.073Z",
-  "count": 403,
+  "updatedAt": "2026-07-12T21:43:48.682Z",
+  "count": 385,
   "items": [
     {
       "title": "[서울시] 공공미술 수변갤러리 프로젝트 [선유담담] 작품 전시 개장",
@@ -1524,19 +1524,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=75b8ae86399341c9b7b6814ea67ad550&thumb=Y"
     },
     {
-      "title": "[문화살롱 5120] LH 행복 인스톨레이션",
-      "category": "전시/미술",
-      "gu": "노원구",
-      "place": "문화살롱 5120",
-      "startDate": "2026-06-05",
-      "endDate": "2026-07-11",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158120&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c6a578c3ec7145d2b59fba784fa2bf91&thumb=Y"
-    },
-    {
       "title": "[중구문화재단] 내셔널지오그래픽 특별기획 : OCEAN 가장 거대한 기록",
       "category": "전시/미술",
       "gu": "중구",
@@ -2601,6 +2588,19 @@
       "target": "성인 누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158283&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ee025045454649e09a53bf1a2ce77a80&thumb=Y"
+    },
+    {
+      "title": "2026년 작당모의 창작신작 [모기]",
+      "category": "연극",
+      "gu": "종로구",
+      "place": "예술공간혜화",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-12",
+      "isFree": false,
+      "fee": "전석 3만원",
+      "target": "만 12세 이상",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158235&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3976a84e0ec447978a3a000a92a4d336&thumb=Y"
     }
   ]
 }

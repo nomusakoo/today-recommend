@@ -233,11 +233,47 @@ function mapColor(step) {
   return getComputedStyle(document.documentElement).getPropertyValue(`--map-${step}`).trim();
 }
 
-function colorForCount(count) {
-  if (!count) return mapColor(0);
-  if (count <= 2) return mapColor(1);
-  if (count <= 5) return mapColor(2);
-  return mapColor(3);
+function shadeHex(hex, amount) {
+  const num = parseInt(hex.replace("#", ""), 16);
+  const target = amount < 0 ? 0 : 255;
+  const mix = (channel) => Math.round(channel + (target - channel) * Math.abs(amount));
+  const r = mix((num >> 16) & 0xff);
+  const g = mix((num >> 8) & 0xff);
+  const b = mix(num & 0xff);
+  return `#${[r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("")}`;
+}
+
+function stepForCount(count) {
+  if (!count) return 0;
+  if (count <= 2) return 1;
+  if (count <= 5) return 2;
+  return 3;
+}
+
+function buildMapGradientDefs() {
+  const defs = document.createElementNS(SVG_NS, "defs");
+  [0, 1, 2, 3].forEach((step) => {
+    const base = mapColor(step);
+    const gradient = document.createElementNS(SVG_NS, "linearGradient");
+    gradient.setAttribute("id", `mapGrad${step}`);
+    gradient.setAttribute("x1", "0%");
+    gradient.setAttribute("y1", "0%");
+    gradient.setAttribute("x2", "100%");
+    gradient.setAttribute("y2", "100%");
+
+    const stop1 = document.createElementNS(SVG_NS, "stop");
+    stop1.setAttribute("offset", "0%");
+    stop1.setAttribute("stop-color", shadeHex(base, 0.12));
+
+    const stop2 = document.createElementNS(SVG_NS, "stop");
+    stop2.setAttribute("offset", "100%");
+    stop2.setAttribute("stop-color", shadeHex(base, -0.14));
+
+    gradient.appendChild(stop1);
+    gradient.appendChild(stop2);
+    defs.appendChild(gradient);
+  });
+  return defs;
 }
 
 function shortGuName(gu) {
@@ -252,6 +288,7 @@ function renderMap() {
 
   seoulMap.innerHTML = "";
   seoulMap.setAttribute("viewBox", `0 0 ${SEOUL_DISTRICTS.width} ${SEOUL_DISTRICTS.height}`);
+  seoulMap.appendChild(buildMapGradientDefs());
 
   const pathGroup = document.createElementNS(SVG_NS, "g");
   const labelGroup = document.createElementNS(SVG_NS, "g");
@@ -262,7 +299,7 @@ function renderMap() {
     path.setAttribute("d", d);
     path.setAttribute("class", "gu-path");
     path.setAttribute("data-gu", gu);
-    path.setAttribute("fill", colorForCount(counts[gu]));
+    path.setAttribute("fill", `url(#mapGrad${stepForCount(counts[gu])})`);
     path.setAttribute("role", "button");
     path.setAttribute("tabindex", "0");
     path.setAttribute("aria-label", `${gu}, 행사 ${counts[gu] || 0}건`);

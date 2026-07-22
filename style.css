@@ -151,7 +151,11 @@ header h1 {
 }
 
 .maintab.active {
-  background: var(--tab-active-bg);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--tab-active-bg), white 10%),
+    color-mix(in srgb, var(--tab-active-bg), black 12%)
+  );
   color: var(--tab-active-text);
 }
 
@@ -188,7 +192,11 @@ header h1 {
 }
 
 .tab.active {
-  background: var(--accent-solid);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--accent-solid), white 12%),
+    color-mix(in srgb, var(--accent-solid), black 14%)
+  );
   color: #ffffff;
   font-weight: 600;
 }
@@ -203,7 +211,11 @@ main {
 .card {
   width: 100%;
   min-height: 220px;
-  background: var(--card-bg);
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--card-bg), var(--accent-solid) 5%),
+    var(--card-bg)
+  );
   border-radius: 20px;
   box-shadow: 0 12px 30px var(--card-shadow);
   display: flex;
@@ -259,7 +271,11 @@ main {
   padding: 16px;
   border: none;
   border-radius: 16px;
-  background: var(--tab-active-bg);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--tab-active-bg), white 10%),
+    color-mix(in srgb, var(--tab-active-bg), black 12%)
+  );
   color: var(--tab-active-text);
   font-size: 1.05rem;
   font-weight: 700;
@@ -276,7 +292,11 @@ main {
 }
 
 .map-wrap {
-  background: var(--card-bg);
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--card-bg), var(--accent-solid) 5%),
+    var(--card-bg)
+  );
   border-radius: 20px;
   box-shadow: 0 8px 20px var(--card-shadow-soft);
   padding: 12px 12px 6px;
@@ -375,19 +395,35 @@ main {
 }
 
 .legend-swatch-0 {
-  background: var(--map-0);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--map-0), white 12%),
+    color-mix(in srgb, var(--map-0), black 14%)
+  );
 }
 
 .legend-swatch-1 {
-  background: var(--map-1);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--map-1), white 12%),
+    color-mix(in srgb, var(--map-1), black 14%)
+  );
 }
 
 .legend-swatch-2 {
-  background: var(--map-2);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--map-2), white 12%),
+    color-mix(in srgb, var(--map-2), black 14%)
+  );
 }
 
 .legend-swatch-3 {
-  background: var(--map-3);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--map-3), white 12%),
+    color-mix(in srgb, var(--map-3), black 14%)
+  );
 }
 
 .seoul-controls {
@@ -419,7 +455,11 @@ main {
 }
 
 .event-card {
-  background: var(--card-bg);
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--card-bg), var(--accent-solid) 5%),
+    var(--card-bg)
+  );
   border-radius: 16px;
   box-shadow: 0 8px 20px var(--card-shadow-soft);
   padding: 16px;

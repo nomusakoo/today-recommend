@@ -13,15 +13,45 @@
       <p class="subtitle">고민은 그만, 버튼 한 번에 오늘을 정해드려요</p>
     </header>
 
-    <nav class="maintabs" id="mainTabs">
-      <button class="maintab active" data-view="seoul">서울 행사</button>
-      <button class="maintab" data-view="random">랜덤 추천</button>
+    <nav class="maintabs" id="mainTabs" role="tablist" aria-label="주요 메뉴">
+      <button
+        class="maintab active"
+        id="tab-seoul"
+        role="tab"
+        aria-selected="true"
+        aria-controls="seoulView"
+        data-view="seoul"
+      >
+        서울 행사
+      </button>
+      <button
+        class="maintab"
+        id="tab-random"
+        role="tab"
+        aria-selected="false"
+        tabindex="-1"
+        aria-controls="randomView"
+        data-view="random"
+      >
+        랜덤 추천
+      </button>
     </nav>
 
-    <section class="view active" id="seoulView">
-      <div class="map-wrap">
-        <svg id="seoulMap" viewBox="0 0 600 493.6" preserveAspectRatio="xMidYMid meet"></svg>
-        <div class="map-legend">
+    <section
+      class="view active"
+      id="seoulView"
+      role="tabpanel"
+      aria-labelledby="tab-seoul"
+    >
+      <div class="map-wrap" id="mapWrap">
+        <svg
+          id="seoulMap"
+          viewBox="0 0 600 493.6"
+          preserveAspectRatio="xMidYMid meet"
+          role="group"
+          aria-label="서울시 자치구별 문화행사 지도. 각 구를 선택하면 아래 목록이 필터링됩니다."
+        ></svg>
+        <div class="map-legend" aria-hidden="true">
           <span>없음</span>
           <span class="legend-swatch" style="background:#f2eee9"></span>
           <span class="legend-swatch" style="background:#f2c9a4"></span>
@@ -32,29 +62,36 @@
       </div>
 
       <div class="seoul-controls">
+        <label for="guSelect" class="sr-only">자치구 선택</label>
         <select id="guSelect">
           <option value="all">전체 자치구</option>
         </select>
       </div>
 
       <div class="event-list" id="eventList">
-        <p class="event-status" id="eventStatus">불러오는 중...</p>
+        <p class="event-status" id="eventStatus" hidden></p>
       </div>
+      <p class="sr-only" id="srStatus" role="status" aria-live="polite"></p>
 
       <p class="updated-at" id="updatedAt"></p>
     </section>
 
-    <section class="view" id="randomView">
-      <nav class="tabs" id="tabs">
-        <button class="tab active" data-category="all">전체</button>
-        <button class="tab" data-category="activity">할 일</button>
-        <button class="tab" data-category="food">음식</button>
-        <button class="tab" data-category="movie">영화</button>
+    <section
+      class="view"
+      id="randomView"
+      role="tabpanel"
+      aria-labelledby="tab-random"
+    >
+      <nav class="tabs" id="tabs" role="tablist" aria-label="추천 카테고리">
+        <button class="tab active" role="tab" aria-selected="true" data-category="all">전체</button>
+        <button class="tab" role="tab" aria-selected="false" tabindex="-1" data-category="activity">할 일</button>
+        <button class="tab" role="tab" aria-selected="false" tabindex="-1" data-category="food">음식</button>
+        <button class="tab" role="tab" aria-selected="false" tabindex="-1" data-category="movie">영화</button>
       </nav>
 
       <main>
-        <div class="card" id="card">
-          <span class="card-emoji" id="cardEmoji">🎲</span>
+        <div class="card" id="card" role="status" aria-live="polite">
+          <span class="card-emoji" id="cardEmoji" aria-hidden="true">🎲</span>
           <p class="card-text" id="cardText">버튼을 눌러 오늘의 추천을 받아보세요</p>
           <span class="card-tag" id="cardTag"></span>
         </div>

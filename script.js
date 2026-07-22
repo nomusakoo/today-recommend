@@ -98,12 +98,50 @@ function draw() {
   reportHeight();
 }
 
-tabs.addEventListener("click", (e) => {
-  const btn = e.target.closest(".tab");
-  if (!btn) return;
+function activateTab(tablist, btn) {
+  tablist.querySelectorAll('[role="tab"]').forEach((t) => {
+    const isActive = t === btn;
+    t.classList.toggle("active", isActive);
+    t.setAttribute("aria-selected", String(isActive));
+    t.tabIndex = isActive ? 0 : -1;
+  });
+  btn.focus();
+}
 
-  tabs.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"));
-  btn.classList.add("active");
+function setupTabKeyboardNav(tablist, onActivate) {
+  tablist.addEventListener("click", (e) => {
+    const btn = e.target.closest('[role="tab"]');
+    if (!btn) return;
+    activateTab(tablist, btn);
+    onActivate(btn);
+  });
+
+  tablist.addEventListener("keydown", (e) => {
+    const tabEls = Array.from(tablist.querySelectorAll('[role="tab"]'));
+    const currentIndex = tabEls.indexOf(document.activeElement);
+    if (currentIndex === -1) return;
+
+    let nextIndex = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      nextIndex = (currentIndex + 1) % tabEls.length;
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      nextIndex = (currentIndex - 1 + tabEls.length) % tabEls.length;
+    } else if (e.key === "Home") {
+      nextIndex = 0;
+    } else if (e.key === "End") {
+      nextIndex = tabEls.length - 1;
+    }
+
+    if (nextIndex !== null) {
+      e.preventDefault();
+      const nextBtn = tabEls[nextIndex];
+      activateTab(tablist, nextBtn);
+      onActivate(nextBtn);
+    }
+  });
+}
+
+setupTabKeyboardNav(tabs, (btn) => {
   currentCategory = btn.dataset.category;
   lastPick = null;
 });
@@ -116,13 +154,7 @@ const mainTabs = document.getElementById("mainTabs");
 const randomView = document.getElementById("randomView");
 const seoulView = document.getElementById("seoulView");
 
-mainTabs.addEventListener("click", (e) => {
-  const btn = e.target.closest(".maintab");
-  if (!btn) return;
-
-  mainTabs.querySelectorAll(".maintab").forEach((t) => t.classList.remove("active"));
-  btn.classList.add("active");
-
+setupTabKeyboardNav(mainTabs, (btn) => {
   const view = btn.dataset.view;
   randomView.classList.toggle("active", view === "random");
   seoulView.classList.toggle("active", view === "seoul");
@@ -138,15 +170,32 @@ mainTabs.addEventListener("click", (e) => {
 const guSelect = document.getElementById("guSelect");
 const eventList = document.getElementById("eventList");
 const eventStatus = document.getElementById("eventStatus");
+const srStatus = document.getElementById("srStatus");
 const updatedAtEl = document.getElementById("updatedAt");
 const seoulMap = document.getElementById("seoulMap");
+const mapWrap = document.getElementById("mapWrap");
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 
 let seoulEvents = null;
 
+function renderSkeleton(count = 6) {
+  eventStatus.hidden = true;
+  mapWrap.classList.add("is-loading");
+  eventList.innerHTML = "";
+  for (let i = 0; i < count; i++) {
+    const sk = document.createElement("div");
+    sk.className = "event-card skeleton-card";
+    sk.setAttribute("aria-hidden", "true");
+    eventList.appendChild(sk);
+  }
+  srStatus.textContent = "행사 정보를 불러오는 중입니다.";
+}
+
 async function loadSeoulEvents() {
   if (seoulEvents) return;
+
+  renderSkeleton();
 
   try {
     const res = await fetch("data/events.json", { cache: "no-store" });
@@ -167,11 +216,15 @@ async function loadSeoulEvents() {
       updatedAtEl.textContent = `${d.toLocaleString("ko-KR")} 기준 · 매일 자동 업데이트`;
     }
 
+    mapWrap.classList.remove("is-loading");
     renderMap();
     renderEvents();
   } catch (err) {
+    mapWrap.classList.remove("is-loading");
+    eventList.innerHTML = "";
     eventStatus.textContent = "행사 정보를 불러오지 못했어요. 잠시 후 다시 시도해주세요.";
-    eventStatus.style.display = "block";
+    eventStatus.hidden = false;
+    srStatus.textContent = "행사 정보를 불러오지 못했습니다.";
     reportHeight();
   }
 }
@@ -206,12 +259,22 @@ function renderMap() {
     path.setAttribute("class", "gu-path");
     path.setAttribute("data-gu", gu);
     path.setAttribute("fill", colorForCount(counts[gu]));
+    path.setAttribute("role", "button");
+    path.setAttribute("tabindex", "0");
+    path.setAttribute("aria-label", `${gu}, 행사 ${counts[gu] || 0}건`);
+    path.setAttribute("aria-pressed", "false");
 
     const title = document.createElementNS(SVG_NS, "title");
     title.textContent = `${gu} (${counts[gu] || 0}건)`;
     path.appendChild(title);
 
     path.addEventListener("click", () => selectGu(gu));
+    path.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        e.preventDefault();
+        selectGu(gu);
+      }
+    });
     pathGroup.appendChild(path);
 
     const [cx, cy] = SEOUL_DISTRICTS.centroids[gu];
@@ -239,6 +302,7 @@ function syncMapSelection() {
     const isSelected = hasSelection && path.dataset.gu === selected;
     path.classList.toggle("selected", isSelected);
     path.classList.toggle("dimmed", hasSelection && !isSelected);
+    path.setAttribute("aria-pressed", String(isSelected));
     if (isSelected) path.parentNode.appendChild(path);
   });
 
@@ -274,9 +338,12 @@ function renderEvents() {
     status.className = "event-status";
     status.textContent = "진행 중인 행사가 없어요.";
     eventList.appendChild(status);
+    srStatus.textContent = "진행 중인 행사가 없습니다.";
     reportHeight();
     return;
   }
+
+  srStatus.textContent = `행사 ${filtered.length}건을 찾았습니다.`;
 
   filtered.forEach((event) => {
     const card = document.createElement("div");

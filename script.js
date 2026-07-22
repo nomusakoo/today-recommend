@@ -229,11 +229,15 @@ async function loadSeoulEvents() {
   }
 }
 
+function mapColor(step) {
+  return getComputedStyle(document.documentElement).getPropertyValue(`--map-${step}`).trim();
+}
+
 function colorForCount(count) {
-  if (!count) return "#f2eee9";
-  if (count <= 2) return "#f2c9a4";
-  if (count <= 5) return "#e2895a";
-  return "#c0532a";
+  if (!count) return mapColor(0);
+  if (count <= 2) return mapColor(1);
+  if (count <= 5) return mapColor(2);
+  return mapColor(3);
 }
 
 function shortGuName(gu) {
@@ -377,6 +381,10 @@ guSelect.addEventListener("change", () => {
 });
 
 loadSeoulEvents();
+
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  if (seoulEvents) renderMap();
+});
 
 // ---- 블로거 등 iframe에 삽입됐을 때, 부모 창에 실제 콘텐츠 높이 전달 ----
 

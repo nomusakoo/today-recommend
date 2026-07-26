@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T21:50:49.820Z",
-  "count": 447,
+  "updatedAt": "2026-07-26T21:55:09.957Z",
+  "count": 427,
   "items": [
     {
       "title": "[종로문화재단] 박노수미술관 개관12주년 기념전시 [산수·격물]",
@@ -1628,19 +1628,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=66f2bd3c631e454ba27b78760ddcfb0d&thumb=Y"
     },
     {
-      "title": "도암갤러리 기획전 [겹쳐 보는 순간 A Layered Moment]",
-      "category": "전시/미술",
-      "gu": "종로구",
-      "place": "서울아트센터 도암 3층 도암갤러리",
-      "startDate": "2026-06-18",
-      "endDate": "2026-07-25",
-      "isFree": true,
-      "fee": "",
-      "target": "전체 연령 관람 가능",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158198&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9b4f1bb8f5654d74b2596e9b77fbcf26&thumb=Y"
-    },
-    {
       "title": "[서울아트책보고] 사랑의 덕통사고: 사랑 이후, 우리가 만들어 낸 세계",
       "category": "전시/미술",
       "gu": "구로구",
@@ -1808,19 +1795,6 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158368&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9559126f27874a9592cc70cbeff1c3e7&thumb=Y"
-    },
-    {
-      "title": "[갤러리지우헌] 이택수 개인전 [잔잔: 기록되지 못한 것들]",
-      "category": "전시/미술",
-      "gu": "종로구",
-      "place": "갤러리 지우헌",
-      "startDate": "2026-06-24",
-      "endDate": "2026-07-25",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나(단, 어린이는 보호자 동반 시 가능)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158349&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8b4095923454461f9a171bf60546824d&thumb=Y"
     },
     {
       "title": "[서울시립 북서울미술관] 유휴공간 전시 《보편타당한 당신 - 심이다은》",
@@ -2120,32 +2094,6 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158510&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0898601617c34a68b9c74b6e7ac0c70c&thumb=Y"
-    },
-    {
-      "title": "[구립증산도서관] 테마로 즐기는 도서관 - 7월 테마전시체험전 [얼음산 빙수가게]",
-      "category": "전시/미술",
-      "gu": "은평구",
-      "place": "구립증산도서관 지하 1층 북갤러리 및 3층 가족열람실",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-25",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158512&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d8ac0895633440fd87a34abb6b02e207&thumb=Y"
-    },
-    {
-      "title": "[마포구립서강도서관] 7월/영유아 [말놀이 잘잘잘]",
-      "category": "교육/체험",
-      "gu": "마포구",
-      "place": "4층 어린이자료실 꼬마방",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-25",
-      "isFree": true,
-      "fee": "",
-      "target": "24개월~ 만 6세 영유아와 양육자",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158168&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=009aaef4a1724e6580860635728b0306&thumb=Y"
     },
     {
       "title": "[마포구립서강도서관] 7월/어린이메이킹 [해봄아 노올자!] 해봄맘껏Time",
@@ -2601,6 +2549,58 @@
       "target": "8세 이상",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158165&menuNo=200008",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=415b27406ee0410a96615f543202602b&thumb=Y"
+    },
+    {
+      "title": "[동작문화재단] 2026 본동어울마당 아트홀 하반기 정기 기획공연 [본동 세레나데]",
+      "category": "콘서트",
+      "gu": "동작구",
+      "place": "본동어울마당 아트홀",
+      "startDate": "2026-07-15",
+      "endDate": "2026-12-16",
+      "isFree": true,
+      "fee": "무료",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158785&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4a60d747b84944d28ff605b182ac1d9f&thumb=Y"
+    },
+    {
+      "title": "[서울식물원] 2026 서울식물원 여름행사 [식물원은 미술관 : 프리다가 사랑한 식물들]",
+      "category": "축제-문화/예술",
+      "gu": "강서구",
+      "place": "서울식물원 식물문화센터",
+      "startDate": "2026-07-15",
+      "endDate": "2026-08-17",
+      "isFree": false,
+      "fee": "프로그램별 상이",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158434&menuNo=200010",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=50d142ca0d6640cc93c25a7ea50223f6&thumb=Y"
+    },
+    {
+      "title": "[서울도서관 × 서울특별시 어린이병원] 정여울 - 찾아가는 작가힙톡(Hip-Talk)",
+      "category": "교육/체험",
+      "gu": "서초구",
+      "place": "서울특별시 어린이병원 발달센터 5층 강당",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-29",
+      "isFree": true,
+      "fee": "",
+      "target": "시민 100명",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158740&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e095c0db0a7b41299bda27e719d8d2bd&thumb=Y"
+    },
+    {
+      "title": "[마포구립서강도서관] 7~10월/읽는 인간_호모 부커스 Ⅲ. [마르셀 프루스트의 『잃어버린 시간을 찾아서』 읽기]",
+      "category": "교육/체험",
+      "gu": "마포구",
+      "place": "온라인(ZOOM), 서강도서관 3층 세미나실",
+      "startDate": "2026-07-16",
+      "endDate": "2026-10-29",
+      "isFree": true,
+      "fee": "",
+      "target": "일반 20명",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158339&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6e32f54ab532460f879cc6be27c415c5&thumb=Y"
     }
   ]
 }

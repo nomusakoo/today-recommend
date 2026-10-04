@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T23:28:59.670Z",
-  "count": 409,
+  "updatedAt": "2026-10-04T23:47:16.685Z",
+  "count": 395,
   "items": [
     {
       "title": "[종로문화재단] 박노수미술관 개관12주년 기념전시 [산수·격물]",
@@ -807,19 +807,6 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157686&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1d442b535cae430d8bce0aa89bc234ba&thumb=Y"
-    },
-    {
-      "title": "[종로문화재단] 종로구 야외도서관 [종로 열린 책마루]",
-      "category": "기타",
-      "gu": "종로구",
-      "place": "청운문학도서관, 청운공원, 마로니에공원",
-      "startDate": "2026-05-24",
-      "endDate": "2026-10-03",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158556&menuNo=200013",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fe20caad2b90476bb5aecf5e50038adc&thumb=Y"
     },
     {
       "title": "2026 [서울기록원] 성인 대상 강연프로그램 [기록을 바라보는 여섯 개의 시선]",
@@ -2226,19 +2213,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fe49b37e43b84eff96479d2b31802f83&thumb=Y"
     },
     {
-      "title": "[세종문화회관] 26세종시즌 [스미레 미용실]",
-      "category": "연극",
-      "gu": "종로구",
-      "place": "세종M씨어터",
-      "startDate": "2026-09-12",
-      "endDate": "2026-10-03",
-      "isFree": false,
-      "fee": "R석 80,000원 S석 60,000원 A석 40,000원",
-      "target": "13세 이상 관람 가능 (2013년 포함 이전 출생자)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159055&menuNo=200008",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cabf72f0c90446f1a43cbf195664aa4b&thumb=Y"
-    },
-    {
       "title": "커피 볶는 기타리스트 김성진의 [한 잔의 여유 시리즈]",
       "category": "클래식",
       "gu": "서초구",
@@ -2512,19 +2486,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cb8aa6f4899e4511843d2fe5c837e8e2&thumb=Y"
     },
     {
-      "title": "제 5회 트렌디 페스타 전시회 [1.5land : 새로운 섬으로의 여정]",
-      "category": "전시/미술",
-      "gu": "중구",
-      "place": "동국대학교 문화관 지하 1층 갤러리동국",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-03",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159484&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=013f7a008c4646d291a86fb72dd54492&thumb=Y"
-    },
-    {
       "title": "[은평역사한옥박물관] 전시 [한옥이 된 나무, 솔이]",
       "category": "전시/미술",
       "gu": "은평구",
@@ -2601,6 +2562,45 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159664&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=df109594091c4a80a8ab711e5450ce4c&thumb=Y"
+    },
+    {
+      "title": "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 10월 프로그램",
+      "category": "교육/체험",
+      "gu": "송파구",
+      "place": "송파 청년아티스트센터 1층",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "프로그램별 상이",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159430&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a6354691e6964cb19bebbf2c507357cd&thumb=Y"
+    },
+    {
+      "title": "[구립증산도서관] 10월 북인사이트 : 책의 세계를 열다",
+      "category": "교육/체험",
+      "gu": "은평구",
+      "place": "구립증산도서관 종합자료실 앞",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159691&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b3e9e68a265f4ec780cf6e7adf59dbd1&thumb=Y"
+    },
+    {
+      "title": "[마포구립서강도서관] 10월/어린이메이킹 [해봄아 노올자! 해봄맘껏Time]",
+      "category": "교육/체험",
+      "gu": "마포구",
+      "place": "마포구립서강도서관 4층 어린이자료실 해봄",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "마포구립도서관 정회원, 해봄이로 등록한 초등학생",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159616&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9803d6e4d180464cb3f71f951e57d307&thumb=Y"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-28T00:12:49.058Z",
-  "count": 360,
+  "updatedAt": "2026-10-29T00:33:46.273Z",
+  "count": 359,
   "items": [
     {
       "title": "[종로문화재단] 박노수미술관 개관12주년 기념전시 [산수·격물]",
@@ -94,8 +94,8 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=687b3c25e2e94dc9a9b8af5824a58ccc&thumb=Y"
     },
     {
-      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
-      "category": "전시/미술",
+      "title": "[서울디자인재단] [해치와 나눔히어로] 장난감 기부, 나눔 체험",
+      "category": "교육/체험",
       "gu": "성동구",
       "place": "서울새활용플라자 1층 새활용하우스",
       "startDate": "2026-01-02",
@@ -103,8 +103,8 @@
       "isFree": true,
       "fee": "무료",
       "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156558&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y"
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156555&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0f77dbb41066453a9cf39fabf0b69b95&thumb=Y"
     },
     {
       "title": "[서울디자인재단] SUP 시민참여 프로그램 [자원순환 이야기]",
@@ -120,8 +120,8 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=80e93c16fdef4ae49cf04b149dc2701f&thumb=Y"
     },
     {
-      "title": "[서울디자인재단] [해치와 나눔히어로] 장난감 기부, 나눔 체험",
-      "category": "교육/체험",
+      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+      "category": "전시/미술",
       "gu": "성동구",
       "place": "서울새활용플라자 1층 새활용하우스",
       "startDate": "2026-01-02",
@@ -129,8 +129,8 @@
       "isFree": true,
       "fee": "무료",
       "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156555&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0f77dbb41066453a9cf39fabf0b69b95&thumb=Y"
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156558&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y"
     },
     {
       "title": "[DDP] Dream in Light",
@@ -302,19 +302,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=44c9feb4b789462796a1c6eaa7fca575&thumb=Y"
     },
     {
-      "title": "[서울시립과학관] 2026 고교탐구교실",
-      "category": "교육/체험",
-      "gu": "노원구",
-      "place": "서울시립과학관 1~4교육실",
-      "startDate": "2026-04-01",
-      "endDate": "2026-12-31",
-      "isFree": false,
-      "fee": "강좌 당 40만원",
-      "target": "고등학생(단체)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156520&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=147f27a87e86495ea0c95b94be1e0544&thumb=Y"
-    },
-    {
       "title": "[서울역사박물관] 2026년 [느낌있는 박물관] 중·고등학교 특수학급 기관 모집",
       "category": "교육/체험",
       "gu": "종로구",
@@ -326,6 +313,19 @@
       "target": "중ㆍ고등학교 특수학급 단체",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156940&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f76ba86eca1b43ff935a895f5017bcfd&thumb=Y"
+    },
+    {
+      "title": "[서울시립과학관] 2026 고교탐구교실",
+      "category": "교육/체험",
+      "gu": "노원구",
+      "place": "서울시립과학관 1~4교육실",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "isFree": false,
+      "fee": "강좌 당 40만원",
+      "target": "고등학생(단체)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156520&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=147f27a87e86495ea0c95b94be1e0544&thumb=Y"
     },
     {
       "title": "[서울시립과학관] 2026 이공계 특화 진로 탐색",
@@ -1082,19 +1082,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=55536e1876f8496dbc48d7adcb9009df&thumb=Y"
     },
     {
-      "title": "[중구문화재단] 뮤지컬 [디어 에반 핸슨]",
-      "category": "뮤지컬/오페라",
-      "gu": "중구",
-      "place": "충무아트센터",
-      "startDate": "2026-08-01",
-      "endDate": "2026-11-01",
-      "isFree": false,
-      "fee": "VIP석 160,000원┃R석 130,000원 S석 100,000원┃A석 70,000원",
-      "target": "14세 이상 관람가(2013년생 포함 이전 출생자)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158529&menuNo=200008",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=19fb5eb0e087415984110cf261bd84bb&thumb=Y"
-    },
-    {
       "title": "[광진문화재단] 2026 생활밀착형 문화예술교육 지원사업 [가가호호(家家好好)] - 광진",
       "category": "교육/체험",
       "gu": "광진구",
@@ -1106,6 +1093,19 @@
       "target": "광진구민 누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158986&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=32b51532623942c58edee6f7c82549de&thumb=Y"
+    },
+    {
+      "title": "[중구문화재단] 뮤지컬 [디어 에반 핸슨]",
+      "category": "뮤지컬/오페라",
+      "gu": "중구",
+      "place": "충무아트센터",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-01",
+      "isFree": false,
+      "fee": "VIP석 160,000원┃R석 130,000원 S석 100,000원┃A석 70,000원",
+      "target": "14세 이상 관람가(2013년생 포함 이전 출생자)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158529&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=19fb5eb0e087415984110cf261bd84bb&thumb=Y"
     },
     {
       "title": "[구립증산도서관] 비밀책방 [취향을 발견하는 청소년 독서 구독]",
@@ -1238,19 +1238,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8f9d4ee329554763b4b0ed830c6fdb30&thumb=Y"
     },
     {
-      "title": "[서울문화재단] 《PLAY-UP 아카데미》 드라마투르기적 사고와 실전: 창작 현장에서의 드라마투르그 역할과 실전 이해",
-      "category": "교육/체험",
-      "gu": "성북구",
-      "place": "서울연극창작센터",
-      "startDate": "2026-08-24",
-      "endDate": "2026-11-09",
-      "isFree": true,
-      "fee": "",
-      "target": "5편 이상, 10편 이하의 공연 참여경험이 있는 연극 예술인",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158894&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1d5cdc5e4f7c4fe3846e02e991e920e7&thumb=Y"
-    },
-    {
       "title": "[성동문화재단] 영화로 떠나는 예술여행, 시네마 공감",
       "category": "교육/체험",
       "gu": "성동구",
@@ -1262,6 +1249,19 @@
       "target": "성인 누구나 20명 내외",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158895&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b41c8a448d2f4edca9479c48cc1c6573&thumb=Y"
+    },
+    {
+      "title": "[서울문화재단] 《PLAY-UP 아카데미》 드라마투르기적 사고와 실전: 창작 현장에서의 드라마투르그 역할과 실전 이해",
+      "category": "교육/체험",
+      "gu": "성북구",
+      "place": "서울연극창작센터",
+      "startDate": "2026-08-24",
+      "endDate": "2026-11-09",
+      "isFree": true,
+      "fee": "",
+      "target": "5편 이상, 10편 이하의 공연 참여경험이 있는 연극 예술인",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158894&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1d5cdc5e4f7c4fe3846e02e991e920e7&thumb=Y"
     },
     {
       "title": "[서울식물원] 2026 서울식물원 기획전시 《다정한 균형: 서로를 비추는》 연계 상설 프로그램 [사이를 잇는]",
@@ -1446,19 +1446,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a894b7ac63fb42c1b41d8dcc2cd9e937&thumb=Y"
     },
     {
-      "title": "[갤러리 508] Japanese Pop Trio II",
-      "category": "전시/미술",
-      "gu": "강남구",
-      "place": "갤러리508",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-28",
-      "isFree": true,
-      "fee": "0원",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159295&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2ef0a9c342c147e99fa5a30d710d0cb0&thumb=Y"
-    },
-    {
       "title": "[중랑아트센터] 미디어 체험전 [반짝 깜빡 사르르]",
       "category": "전시/미술",
       "gu": "중랑구",
@@ -1483,32 +1470,6 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159433&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d21cac153c15493cb42c13f03bcae1b2&thumb=Y"
-    },
-    {
-      "title": "[금천구립시흥도서관] 2026년 문화예술지원사업 [세 개의 길, 하나의 금천: 사라질 기억을 담다] 1기",
-      "category": "교육/체험",
-      "gu": "금천구",
-      "place": "금천구립시흥도서관, 시흥동 일대",
-      "startDate": "2026-09-02",
-      "endDate": "2026-10-28",
-      "isFree": true,
-      "fee": "무료",
-      "target": "성인",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159261&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2678165b57cf448f89fb47b90ce6aeb6&thumb=Y"
-    },
-    {
-      "title": "[청계천박물관] 2026년 하반기 초등4~6학년 학급단체 교육 [졸졸졸 개천, 콸콸콸 준천]",
-      "category": "교육/체험",
-      "gu": "성동구",
-      "place": "청계천박물관(서울특별시 성동구 청계천로 530)",
-      "startDate": "2026-09-02",
-      "endDate": "2026-10-28",
-      "isFree": true,
-      "fee": "",
-      "target": "초등학교 4~6학년 학급단체",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159063&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a790dad425524623b8ac6f8f41b142ba&thumb=Y"
     },
     {
       "title": "[서울식물원] 2026 서울식물원 기획전시 《다정한 균형: 서로를 비추는》 연계 어린이(가족) 대상 자율감상 프로그램 [마주 봄, 서로 봄: 식물원을 비추는 작품들]",
@@ -1654,19 +1615,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5d9d35d7029945eb9a1a17e648c78cd3&thumb=Y"
     },
     {
-      "title": "2026 문학 속 영화 투어",
-      "category": "교육/체험",
-      "gu": "서대문구",
-      "place": "서울시 전역",
-      "startDate": "2026-09-12",
-      "endDate": "2026-12-05",
-      "isFree": true,
-      "fee": "무료",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159334&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=41658ef3afe648ad9d039c0dfb27a9d1&thumb=Y"
-    },
-    {
       "title": "[한성백제박물관] 2026년 하반기 주말가족교육 [찾아라! 백제 왕성 속 비밀들]",
       "category": "교육/체험",
       "gu": "송파구",
@@ -1678,6 +1626,19 @@
       "target": "초등학생 동반 가족",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159408&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c31cfeff0cd24cfd9603be1f733925be&thumb=Y"
+    },
+    {
+      "title": "2026 문학 속 영화 투어",
+      "category": "교육/체험",
+      "gu": "서대문구",
+      "place": "서울시 전역",
+      "startDate": "2026-09-12",
+      "endDate": "2026-12-05",
+      "isFree": true,
+      "fee": "무료",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159334&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=41658ef3afe648ad9d039c0dfb27a9d1&thumb=Y"
     },
     {
       "title": "커피 볶는 기타리스트 김성진의 [한 잔의 여유 시리즈]",
@@ -1849,17 +1810,17 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bf46f3934f5d426f9b8211394d72fbfb&thumb=Y"
     },
     {
-      "title": "[곰달래도서관] 2026년 4분기 정규강좌 안내",
+      "title": "[서울시어울림플라자] 문화예술관 10~12월 문화예술 프로그램",
       "category": "교육/체험",
       "gu": "강서구",
-      "place": "곰달래도서관 5층 문화강좌실 및 Zoom",
+      "place": "서울시 어울림플라자 B동 문화예술관",
       "startDate": "2026-10-01",
       "endDate": "2026-12-31",
       "isFree": false,
-      "fee": "상세정보 참조",
-      "target": "프로그램 별 상이",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159471&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0cd599cefece45e6a5489bd1206f4761&thumb=Y"
+      "fee": "프로그램별 상이",
+      "target": "누구나(배리어프리)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159344&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1c49cc561cef4731abb9340dc9f02654&thumb=Y"
     },
     {
       "title": "[마포구립서강도서관] 4분기/어린이갤러리 [단어수집가]",
@@ -1875,30 +1836,17 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4812e8fcf8f64cbe8765b4d2fe8ebf3c&thumb=Y"
     },
     {
-      "title": "[서울시어울림플라자] 문화예술관 10~12월 문화예술 프로그램",
+      "title": "[곰달래도서관] 2026년 4분기 정규강좌 안내",
       "category": "교육/체험",
       "gu": "강서구",
-      "place": "서울시 어울림플라자 B동 문화예술관",
+      "place": "곰달래도서관 5층 문화강좌실 및 Zoom",
       "startDate": "2026-10-01",
       "endDate": "2026-12-31",
       "isFree": false,
-      "fee": "프로그램별 상이",
-      "target": "누구나(배리어프리)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159344&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1c49cc561cef4731abb9340dc9f02654&thumb=Y"
-    },
-    {
-      "title": "[남산골한옥마을] 2026 남산골 야간 특별 프로그램 [가배옥]",
-      "category": "교육/체험",
-      "gu": "중구",
-      "place": "남산골한옥마을 옥인동 가옥",
-      "startDate": "2026-10-01",
-      "endDate": "2026-11-26",
-      "isFree": false,
-      "fee": "25,000",
-      "target": "성인 누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159596&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3264cf3b0e414479870d2a0aa145c2e6&thumb=Y"
+      "fee": "상세정보 참조",
+      "target": "프로그램 별 상이",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159471&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0cd599cefece45e6a5489bd1206f4761&thumb=Y"
     },
     {
       "title": "[시립청소년음악센터] AI 영화음악 워크숍:신(Scene)나는 사운드",
@@ -1914,6 +1862,19 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1843000b892745b4a92bf7b3215acc7a&thumb=Y"
     },
     {
+      "title": "[남산골한옥마을] 2026 남산골 야간 특별 프로그램 [가배옥]",
+      "category": "교육/체험",
+      "gu": "중구",
+      "place": "남산골한옥마을 옥인동 가옥",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-26",
+      "isFree": false,
+      "fee": "25,000",
+      "target": "성인 누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159596&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3264cf3b0e414479870d2a0aa145c2e6&thumb=Y"
+    },
+    {
       "title": "고민정 개인전 [존재하는 점]",
       "category": "전시/미술",
       "gu": "종로구",
@@ -1927,6 +1888,71 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=df109594091c4a80a8ab711e5450ce4c&thumb=Y"
     },
     {
+      "title": "[문화실험공간 호수] 10월 월간호수랩 : 호수에서 온 예술 초대장",
+      "category": "교육/체험",
+      "gu": "송파구",
+      "place": "문화실험공간 호수 2F, 3F (프로그램별 상이)",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159431&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7de1b16d50c54d7e854e0236d313178f&thumb=Y"
+    },
+    {
+      "title": "[구립증산도서관] 10월 북인사이트 : 책의 세계를 열다",
+      "category": "교육/체험",
+      "gu": "은평구",
+      "place": "구립증산도서관 종합자료실 앞",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159691&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b3e9e68a265f4ec780cf6e7adf59dbd1&thumb=Y"
+    },
+    {
+      "title": "[구립증산도서관] 2026년 10월 자녀교육 특성화 온라인 북큐레이션 [부모의 한 장이 아이의 한 걸음으로] 아이 마음 읽기",
+      "category": "교육/체험",
+      "gu": "은평구",
+      "place": "구립증산도서관 홈페이지",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159699&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd8e15ffe9704f06848b846949377ed2&thumb=Y"
+    },
+    {
+      "title": "[마포구립서강도서관] 10월/팟캐스트 서강도서관 피셜 72회 [우리 세희]",
+      "category": "기타",
+      "gu": "마포구",
+      "place": "온라인 팟빵",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159716&menuNo=200013",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ce29d942a5e4dcd8e4385c7533086dc&thumb=Y"
+    },
+    {
+      "title": "[마포구립서강도서관] 10월/어린이메이킹 [해봄아 노올자! 해봄맘껏Time]",
+      "category": "교육/체험",
+      "gu": "마포구",
+      "place": "마포구립서강도서관 4층 어린이자료실 해봄",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "마포구립도서관 정회원, 해봄이로 등록한 초등학생",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159616&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9803d6e4d180464cb3f71f951e57d307&thumb=Y"
+    },
+    {
       "title": "[구립증산도서관] 어린이열람실 10월 북큐레이션 [책을 읽으면 동물이 궁금해져!]",
       "category": "교육/체험",
       "gu": "은평구",
@@ -1938,6 +1964,45 @@
       "target": "어린이열람실 이용자 누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159724&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=584ca3554f014f50a346b64f37c9dd23&thumb=Y"
+    },
+    {
+      "title": "예고를 빛낸 사람 수상작가전: 첫 장면 Award-Winning Alumni Exhibition: The First Scene",
+      "category": "전시/미술",
+      "gu": "종로구",
+      "place": "서울아트센터 도암 3층 도암갤러리",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159578&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f056eb6cc40d4e5594b181eb65cc5297&thumb=Y"
+    },
+    {
+      "title": "[구립증산도서관] 온라인 북큐레이션 [어른이를 위한 그림책] 10월 : 힘든 날을 부탁해",
+      "category": "교육/체험",
+      "gu": "은평구",
+      "place": "3층 가족열람실",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159751&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dff8217b2f6440069bbad57af56a26fd&thumb=Y"
+    },
+    {
+      "title": "[구립증산도서관] 가족열람실 10월 북큐레이션 [같이 떠나자, 예술의 세계로]",
+      "category": "교육/체험",
+      "gu": "은평구",
+      "place": "구립증산도서관 3층 가족열람실",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "도서관 이용자 누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159753&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a87eae61ee7f437eacbe478b79f7406d&thumb=Y"
     },
     {
       "title": "DDP 버스킹 10월 공연 일정 안내",
@@ -1966,110 +2031,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98d74c64277e4088b3721565ce9df9dc&thumb=Y"
     },
     {
-      "title": "[구립증산도서관] 가족열람실 10월 북큐레이션 [같이 떠나자, 예술의 세계로]",
-      "category": "교육/체험",
-      "gu": "은평구",
-      "place": "구립증산도서관 3층 가족열람실",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "도서관 이용자 누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159753&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a87eae61ee7f437eacbe478b79f7406d&thumb=Y"
-    },
-    {
-      "title": "[구립증산도서관] 온라인 북큐레이션 [어른이를 위한 그림책] 10월 : 힘든 날을 부탁해",
-      "category": "교육/체험",
-      "gu": "은평구",
-      "place": "3층 가족열람실",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159751&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dff8217b2f6440069bbad57af56a26fd&thumb=Y"
-    },
-    {
-      "title": "[마포구립서강도서관] 10월/팟캐스트 서강도서관 피셜 72회 [우리 세희]",
-      "category": "기타",
-      "gu": "마포구",
-      "place": "온라인 팟빵",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159716&menuNo=200013",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ce29d942a5e4dcd8e4385c7533086dc&thumb=Y"
-    },
-    {
-      "title": "[구립증산도서관] 2026년 10월 자녀교육 특성화 온라인 북큐레이션 [부모의 한 장이 아이의 한 걸음으로] 아이 마음 읽기",
-      "category": "교육/체험",
-      "gu": "은평구",
-      "place": "구립증산도서관 홈페이지",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159699&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd8e15ffe9704f06848b846949377ed2&thumb=Y"
-    },
-    {
-      "title": "[구립증산도서관] 10월 북인사이트 : 책의 세계를 열다",
-      "category": "교육/체험",
-      "gu": "은평구",
-      "place": "구립증산도서관 종합자료실 앞",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159691&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b3e9e68a265f4ec780cf6e7adf59dbd1&thumb=Y"
-    },
-    {
-      "title": "[마포구립서강도서관] 10월/어린이메이킹 [해봄아 노올자! 해봄맘껏Time]",
-      "category": "교육/체험",
-      "gu": "마포구",
-      "place": "마포구립서강도서관 4층 어린이자료실 해봄",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "마포구립도서관 정회원, 해봄이로 등록한 초등학생",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159616&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9803d6e4d180464cb3f71f951e57d307&thumb=Y"
-    },
-    {
-      "title": "예고를 빛낸 사람 수상작가전: 첫 장면 Award-Winning Alumni Exhibition: The First Scene",
-      "category": "전시/미술",
-      "gu": "종로구",
-      "place": "서울아트센터 도암 3층 도암갤러리",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159578&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f056eb6cc40d4e5594b181eb65cc5297&thumb=Y"
-    },
-    {
-      "title": "[문화실험공간 호수] 10월 월간호수랩 : 호수에서 온 예술 초대장",
-      "category": "교육/체험",
-      "gu": "송파구",
-      "place": "문화실험공간 호수 2F, 3F (프로그램별 상이)",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159431&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7de1b16d50c54d7e854e0236d313178f&thumb=Y"
-    },
-    {
       "title": "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 10월 프로그램",
       "category": "교육/체험",
       "gu": "송파구",
@@ -2096,19 +2057,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e6615d4412f4d6aa821da32fc62e2bb&thumb=Y"
     },
     {
-      "title": "[그루브재즈데이] Autumn in Jazz (스페셜 게스트 ; Wim Hoste & Chan Ha Kang)",
-      "category": "콘서트",
-      "gu": "서초구",
-      "place": "재즈클럽 그루브",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-29",
-      "isFree": false,
-      "fee": "20,000원",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159478&menuNo=200008",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6f8aeb88d1784c5e9d297e42167ef6dd&thumb=Y"
-    },
-    {
       "title": "[서울공예박물관] 시간이 쌓이는 집",
       "category": "전시/미술",
       "gu": "종로구",
@@ -2120,6 +2068,19 @@
       "target": "모든 시민",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159777&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd9c22ed10934ac5a2079d6255642e7d&thumb=Y"
+    },
+    {
+      "title": "[그루브재즈데이] Autumn in Jazz (스페셜 게스트 ; Wim Hoste & Chan Ha Kang)",
+      "category": "콘서트",
+      "gu": "서초구",
+      "place": "재즈클럽 그루브",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-29",
+      "isFree": false,
+      "fee": "20,000원",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159478&menuNo=200008",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6f8aeb88d1784c5e9d297e42167ef6dd&thumb=Y"
     },
     {
       "title": "[국민대학교] 명원박물관 제9회 인문학특강 [동서 미술의 교류와 융합]",
@@ -2200,19 +2161,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=af19655be93c4c759e05e1d2dd4c6166&thumb=Y"
     },
     {
-      "title": "땅땅땅-잇있잊 TTang! TTang! TTang! Placed",
-      "category": "전시/미술",
-      "gu": "종로구",
-      "place": "보안여관",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-28",
-      "isFree": true,
-      "fee": "0원",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159736&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7f0bd748a6f0411c8b15f49a10532bee&thumb=Y"
-    },
-    {
       "title": "[서울상상나라] 사랑하는 사이",
       "category": "교육/체험",
       "gu": "광진구",
@@ -2265,19 +2213,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e8916a2b90d74f6dbb79ae3574b279a8&thumb=Y"
     },
     {
-      "title": "[서울로봇인공지능과학관] 가을밤, 와인 한 잔과 나누는 문장들: 문학으로 읽는 AI와 로봇",
-      "category": "교육/체험",
-      "gu": "도봉구",
-      "place": "서울로봇인공지능과학관 3층 아뜰리에",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-28",
-      "isFree": false,
-      "fee": "각 회차별 5,000원",
-      "target": "성인 누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159491&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f230ab7d4be147dab07e4378bc83500c&thumb=Y"
-    },
-    {
       "title": "2026년 서대문구 행복캠퍼스 연세 인생학교: 백세시대의 건강관리",
       "category": "교육/체험",
       "gu": "서대문구",
@@ -2304,19 +2239,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5b75eb5a5d864fbeb0319b68bf2c9c20&thumb=Y"
     },
     {
-      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "category": "전시/미술",
-      "gu": "용산구",
-      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나 (무료)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159722&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y"
-    },
-    {
       "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
       "category": "전시/미술",
       "gu": "용산구",
@@ -2328,6 +2250,19 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159543&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y"
+    },
+    {
+      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
+      "category": "전시/미술",
+      "gu": "용산구",
+      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나 (무료)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159722&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y"
     },
     {
       "title": "[서초구 야외도서관] 2026 양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
@@ -2408,19 +2343,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3cf14194779f459cb13d664ca7529ef5&thumb=Y"
     },
     {
-      "title": "이승현 개인전 [염원의 에너지 변환을 위한 신세기 엔진 실험]",
-      "category": "전시/미술",
-      "gu": "용산구",
-      "place": "LDK.DT",
-      "startDate": "2026-10-13",
-      "endDate": "2026-10-28",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159802&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a52abde4d06d43128805e991a9f1e9a3&thumb=Y"
-    },
-    {
       "title": "[마포구립서강도서관] 10-11월 길 위의 인문학 (박정원) [옷을 자를 때, 비로소 취향을 고민한다]",
       "category": "교육/체험",
       "gu": "마포구",
@@ -2447,19 +2369,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372e5431598e4ef095bc864e01e79ad5&thumb=Y"
     },
     {
-      "title": "[서울상상나라] 어린이박물관에 어른-어른",
-      "category": "교육/체험",
-      "gu": "광진구",
-      "place": "서울상상나라 B1 기획전시실, 빛의 방",
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-28",
-      "isFree": false,
-      "fee": "4,000원 (교육프로그램의 경우 입장료 포함 12,000원)",
-      "target": "성인(어린이 미동반)",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159780&menuNo=200011",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d2a8a6a2a39341f1a7d0439fa45235ac&thumb=Y"
-    },
-    {
       "title": "서울시립미술관 & 노원문화재단 협력전시 《SeMA Collection: 시선의 결》",
       "category": "전시/미술",
       "gu": "노원구",
@@ -2473,19 +2382,6 @@
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3418f4aed09c4228a3a641e9977ea78f&thumb=Y"
     },
     {
-      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "category": "전시/미술",
-      "gu": "강남구",
-      "place": "갤러리 그라프 전시실",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "isFree": true,
-      "fee": "",
-      "target": "누구나",
-      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159714&menuNo=200009",
-      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y"
-    },
-    {
       "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "category": "전시/미술",
       "gu": "양천구",
@@ -2497,6 +2393,19 @@
       "target": "누구나",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159807&menuNo=200009",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y"
+    },
+    {
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "category": "전시/미술",
+      "gu": "강남구",
+      "place": "갤러리 그라프 전시실",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159714&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y"
     },
     {
       "title": "[서울아트책보고] 가을엔, 재즈 함께 들어요 - 김광현 월간 재즈피플 편집장 (6주차)",
@@ -2601,6 +2510,97 @@
       "target": "성인",
       "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159754&menuNo=200011",
       "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=197de0c9248d4bf28364e9d76e3e71a9&thumb=Y"
+    },
+    {
+      "title": "[관악문화재단] '도시의 쉼표 - 관악, 우리들의 해비타트' 2기,3기",
+      "category": "교육/체험",
+      "gu": "관악구",
+      "place": "싱글벙글교육센터 문화도시공유공간",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-14",
+      "isFree": true,
+      "fee": "",
+      "target": "청년 누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159755&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bdf27224b01c41f09f24867feaf5fdf8&thumb=Y"
+    },
+    {
+      "title": "[동작문화재단] 가을의 기록을 한 권의 포토에세이로 엮어가는 시간 [가을 기록실]",
+      "category": "교육/체험",
+      "gu": "동작구",
+      "place": "사당생활문화센터 다목적실 3",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-14",
+      "isFree": true,
+      "fee": "",
+      "target": "성인(19세 이상)",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159788&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=62590f693ccf4bf4845d1b9567a0e50b&thumb=Y"
+    },
+    {
+      "title": "제5회 서초 청년작가 특별전시(SYAF)",
+      "category": "전시/미술",
+      "gu": "서초구",
+      "place": "서리풀청년아트갤러리",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-04",
+      "isFree": true,
+      "fee": "무료관람",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159942&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f3873bc2ed234bdea5140ba1cebaea41&thumb=Y"
+    },
+    {
+      "title": "[서초문화원] 서초문화벨트 해설투어",
+      "category": "교육/체험",
+      "gu": "서초구",
+      "place": "예술의전당, 국악박물관, 세계음악분수 등",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-30",
+      "isFree": true,
+      "fee": "무료",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159506&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7fcb0d638d8646cca77255cd7d57c364&thumb=Y"
+    },
+    {
+      "title": "[서울기록원] 예술가들이 기록한 도시",
+      "category": "전시/미술",
+      "gu": "은평구",
+      "place": "서울기록원 2층 제2전시실",
+      "startDate": "2026-10-20",
+      "endDate": "2029-08-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159917&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ca99afeb8a1e471abee1088b2583b9aa&thumb=Y"
+    },
+    {
+      "title": "[서울시립과학관] 과학X예술 워크숍 [과학관에 온 예술가들]",
+      "category": "교육/체험",
+      "gu": "노원구",
+      "place": "서울시립과학관 1층 메이커스튜디오",
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-22",
+      "isFree": false,
+      "fee": "강좌당 5000원",
+      "target": "초등학생 4학년 이상부터 성인까지",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159937&menuNo=200011",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eec8384db7934f55b6def6e30f0dee5b&thumb=Y"
+    },
+    {
+      "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [dot to dot] - 권봉균",
+      "category": "전시/미술",
+      "gu": "송파구",
+      "place": "송파 청년아티스트센터 지하1층 아트 스페이스",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-31",
+      "isFree": true,
+      "fee": "",
+      "target": "누구나",
+      "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159859&menuNo=200009",
+      "image": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8a2bfeac7a0b480884169bf5b7e5c3e0&thumb=Y"
     }
   ]
 }
